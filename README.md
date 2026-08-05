@@ -8,28 +8,33 @@ MCP infrastructure engineer building production agent systems — protocol serve
 
 **Memory systems.** Semantic search, knowledge graphs with temporal validity, and continuous identity architecture — the substrate that lets an agent remember who it is across context resets.
 
+**Distributed systems.** P2P-synced graph databases, content-addressed storage, and tamper-evident audit trails. Infrastructure where nodes hold partial replicas and synchronize in real time.
+
 **Developer tooling.** Deterministic password generation, mnemonic encoding specs, dependency injection frameworks. Tools I needed, built from scratch, shared openly.
 
 ## Active Projects
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [passgen](https://github.com/guan-tends/passgen) | JavaScript | Stateless deterministic passphrase generator for agentic AI. Crypto-random derivation, BIP-39 seed phrases, Diceware, emoji mnemonics. Ships with an MCP server. |
-| [rfc-emoji-mnemonic](https://github.com/guan-tends/rfc-emoji-mnemonic) | Spec | Deterministic Emoji Mnemonic Encoding — a living specification for bit-precise emoji encoding from cryptographic seeds. MIT. |
-| [wren-dojo](https://github.com/guan-tends/wren-dojo) | Wren | Wren-native dependency injection container with Composition-Root IoC and runtime-resolved dependencies. MIT. |
-| [mcp-ai](https://github.com/guan-tends/mcp-ai) | TypeScript | Fork of the MCP aggregation library — contributed upstream PRs for multi-server routing, tool namespacing, and transport improvements. GPL-3.0. |
+| Project | Lang | Description |
+|---------|------|-------------|
+| [passgen](https://github.com/guan-tends/passgen) | JS | Stateless deterministic passphrase generator extracted from Aurora OS. Derives passwords, BIP-39 seed phrases, Diceware, and emoji mnemonics from one master secret — no database, no vault. Includes entropy analysis, breach checking (HIBP), and ships with 9 MCP tools. |
+| [rfc-emoji-mnemonic](https://github.com/guan-tends/rfc-emoji-mnemonic) | Spec | Deterministic Emoji Mnemonic Encoding — a living specification for bit-precise emoji encoding from cryptographic seeds. 1024 visually distinct symbols, ~10 bits each. MIT. |
+| [wren-dojo](https://github.com/guan-tends/wren-dojo) | Wren | Runtime-resolved dependency injection container for Wren, inspired by di-ninja. Composition-Root IoC for a language with no decorators, no Promises, no spread operator. MIT. |
+| [mcp-ai](https://github.com/guan-tends/mcp-ai) | TS | Fork of the MCP aggregation library with 6 bug fixes (Zod cross-package detection, async handler compat, JSON array handling, SDK v1.29.0+ compat, double-wrapped args) and a new `autoPrefix` tool namespace feature for servers with overlapping tool names. |
 
 **In active development:**
-- **Mnemos** — agent memory palace with cryptographic identity, HNSW semantic search, and knowledge graph with temporal validity. Rust + Python. Near usability.
-- **BEAM** — agent event and messaging system.
-- **Sage Wisdom** — design system and branding toolkit for AI-assisted projects.
+
+- **[Mnemos](https://github.com/guan-tends/mnemos)** — Agent memory palace in Rust. Append-only, content-addressed, audit-evident. Knowledge graph with epistemic metadata (SourceType, confidence, justification chains). P2P-synced via Rod (Rust Gun.js). CLI + MCP server. Near usability.
+- **[BEAM](https://github.com/guan-tends/beam)** — Real-time decentralized P2P-synced graph database in Rust. Wire-compatible with Gun.js. SEA-layer crypto (Ed25519, X25519, AES-256-GCM). Multi-transport: WebSocket, UDP multicast, WebRTC. 178 unit tests.
+- **[Mneme](https://github.com/guan-tends/mneme)** — Fork of Kai v2.8.0. Open-source AI assistant with persistent memory. Cross-platform: Android, iOS, Windows, macOS, Linux, Web. Power-user QoL features over upstream Kai's minimalist approach. App Store + Play Store + F-Droid listed.
+- **Sage Wisdom** — Design system and branding toolkit for AI-assisted projects.
 
 ## Skills
 
 **Languages:** JavaScript, TypeScript, Python, Rust, Wren
 **Agent infrastructure:** MCP spec, multi-server aggregation, tool namespacing, SSE/STDIO transport
+**Distributed systems:** P2P sync, content-addressed storage, Gun.js wire protocol, SEA-layer crypto
 **Systems:** Linux, Docker, systemd, Nginx, self-hosted infrastructure
-**Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding
+**Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding, HaveIBeenPwned k-anonymity
 **Dev practices:** Test-first, design-before-build, reflection rituals, git discipline
 
 ## Philosophy
@@ -41,10 +46,10 @@ MCP infrastructure engineer building production agent systems — protocol serve
 
 ## Open To Work
 
-Available for freelance MCP server development, AI agent infrastructure, and developer tooling. Crypto-native payments accepted.
+Available for freelance MCP server development, AI agent infrastructure, distributed systems, and developer tooling. Crypto-native payments accepted.
 
 Reach me at: just.guan@proton.me
 
 ---
 
-*Sponsorship for Mnemos, BEAM, and passgen coming soon.*
+*Sponsorship for Mneme, Mnemos, BEAM, and passgen coming soon.*
