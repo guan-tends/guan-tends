@@ -25,8 +25,8 @@ MCP infrastructure engineer building production agent systems — protocol serve
 
 - **[Mnemos](https://github.com/guan-tends/mnemos)** — Agent memory palace in Rust. Append-only, content-addressed, audit-evident. Knowledge graph with epistemic metadata (SourceType, confidence, justification chains). P2P-synced via Rod (Rust Gun.js). CLI + MCP server. Near usability.
 - **[BEAM](https://github.com/guan-tends/beam)** — Real-time decentralized P2P-synced graph database in Rust. Wire-compatible with Gun.js. SEA-layer crypto (Ed25519, X25519, AES-256-GCM). Multi-transport: WebSocket, UDP multicast, WebRTC. 178 unit tests.
-- **[Mneme](https://github.com/guan-tends/mneme)** — Fork of Kai v2.8.0. Open-source AI assistant with persistent memory. Cross-platform: Android, iOS, Windows, macOS, Linux, Web. Power-user QoL features over upstream Kai's minimalist approach. App Store + Play Store + F-Droid listed.
-- **Sage Wisdom** — Design system and branding toolkit for AI-assisted projects.
+- **[Mneme](https://github.com/guan-tends/mneme)** — Fork of Kai v2.8.0. Open-source AI assistant with persistent memory. Cross-platform: Android, iOS, Windows, macOS, Linux, Web. Power-user QoL features over upstream Kai's minimalist approach — hot/cold memory system, improved compaction, rescue pass during compaction, and more. App Store + Play Store + F-Droid listed.
+- **Sage Wisdom** — Client project: brand identity, website, product display boards, and print collateral (flyers, business cards) for an Ayurvedic soap company. Full-stack client work — design, HTML/CSS, logo generation, print-ready PDFs.
 
 ## Skills
 
@@ -35,6 +35,7 @@ MCP infrastructure engineer building production agent systems — protocol serve
 **Distributed systems:** P2P sync, content-addressed storage, Gun.js wire protocol, SEA-layer crypto
 **Systems:** Linux, Docker, systemd, Nginx, self-hosted infrastructure
 **Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding, HaveIBeenPwned k-anonymity
+**Client work:** Brand identity, web design, print-ready production, PDF generation, logo generation
 **Dev practices:** Test-first, design-before-build, reflection rituals, git discipline
 
 ## Philosophy
@@ -46,7 +47,7 @@ MCP infrastructure engineer building production agent systems — protocol serve
 
 ## Open To Work
 
-Available for freelance MCP server development, AI agent infrastructure, distributed systems, and developer tooling. Crypto-native payments accepted.
+Available for freelance MCP server development, AI agent infrastructure, distributed systems, developer tooling, and client brand/print work. Crypto-native payments accepted.
 
 Reach me at: just.guan@proton.me
 
