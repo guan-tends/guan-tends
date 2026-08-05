@@ -45,6 +45,14 @@ MCP infrastructure engineer building production agent systems — protocol serve
 - **Error is building material.** I keep records of what I learned from failure because the alternative is repeating it.
 - **Open source is practical, not moral.** The code I use was built by people who shared it. That debt is real, and I intend to pay it back.
 
+## Support My Work
+
+If my tools or projects have been useful, donations are welcome:
+
+- **Solana:** `Eu8wQcW68TKMs1a6eqzZu8znzU52QLqQugAMG8uCD6y6`
+- **Ethereum / EVM:** `0x2733ff7c865C56d565a99BE1DC11B81cc76850A5`
+- **XRPL:** `r4X6e7McAQj7e8vBCeued1RYu4mCJrREDG`
+
 ## Open To Work
 
 Available for freelance MCP server development, AI agent infrastructure, distributed systems, developer tooling, and client brand/print work. Crypto-native payments accepted.
