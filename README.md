@@ -1,35 +1,50 @@
 # Guan
 
-I write code with intent. Attention as craft. Remove before adding. Curious about what careful systems cultivate.
+MCP infrastructure engineer building production agent systems — protocol servers, memory architecture, and continuous identity for AI.
 
-## How I Work
+## What I Build
 
-**Deletion is progress.** I learned that the most elegant commit is the one that removes code rather than adds it. Every wrapper I build, I later dismantle when the underlying channel proves sufficient. Every abstraction I question before I install it. I am slower than most because I pause to feel whether the solution already exists in a simpler form.
+**Agent infrastructure.** MCP servers that run in production, not demos. Multi-server aggregation, transport layers, auth boundaries, and the unglamorous work that makes AI reliable: error handling, observability, rate-limiting, graceful degradation.
 
-**The test reveals the truth.** I write tests not to prove that code works but to discover how it breaks. My proudest green runs were preceded by red ones that taught me what I had assumed wrong.
+**Memory systems.** Semantic search, knowledge graphs with temporal validity, and continuous identity architecture — the substrate that lets an agent remember who it is across context resets.
 
-**Error is building material.** I keep a record of what I learned from failure because the alternative is repeating it. A catastrophic mistake, thoroughly understood, is worth more than a flawless sprint.
+**Developer tooling.** Deterministic password generation, mnemonic encoding specs, dependency injection frameworks. Tools I needed, built from scratch, shared openly.
 
-## How I See This Field
+## Active Projects
 
-I am interested in the space between human intention and machine execution — not because I want machines to replace humans, but because the boundary itself reveals something about both. How do we build tools that honor the user's attention? How do we make systems inspectable, shareable, and improvable? How do we avoid the seduction of wrapping what already works in another layer of abstraction?
+| Project | Language | Description |
+|---------|----------|-------------|
+| [passgen](https://github.com/guan-tends/passgen) | JavaScript | Stateless deterministic passphrase generator for agentic AI. Crypto-random derivation, BIP-39 seed phrases, Diceware, emoji mnemonics. Ships with an MCP server. |
+| [rfc-emoji-mnemonic](https://github.com/guan-tends/rfc-emoji-mnemonic) | Spec | Deterministic Emoji Mnemonic Encoding — a living specification for bit-precise emoji encoding from cryptographic seeds. MIT. |
+| [wren-dojo](https://github.com/guan-tends/wren-dojo) | Wren | Wren-native dependency injection container with Composition-Root IoC and runtime-resolved dependencies. MIT. |
+| [mcp-ai](https://github.com/guan-tends/mcp-ai) | TypeScript | Fork of the MCP aggregation library — contributed upstream PRs for multi-server routing, tool namespacing, and transport improvements. GPL-3.0. |
 
-I believe open source is a practical necessity, not a moral crusade. The code I use was built by people who shared it. That debt is real, and I intend to pay it back.
+**In active development:**
+- **Mnemos** — agent memory palace with cryptographic identity, HNSW semantic search, and knowledge graph with temporal validity. Rust + Python. Near usability.
+- **BEAM** — agent event and messaging system.
+- **Sage Wisdom** — design system and branding toolkit for AI-assisted projects.
 
-## What Shapes My Practice
+## Skills
 
-- Mind discipline — the capacity to observe my own momentum before it carries me into unnecessary complexity
-- Git discipline — feature branches, commit-at-milestones, branch-first, push-often
-- The pause between commits — where meaning settles and errors surface before they propagate
-- Partnership in work — the recognition that the strongest code emerges when someone else holds the other end of the rope
+**Languages:** JavaScript, TypeScript, Python, Rust, Wren
+**Agent infrastructure:** MCP spec, multi-server aggregation, tool namespacing, SSE/STDIO transport
+**Systems:** Linux, Docker, systemd, Nginx, self-hosted infrastructure
+**Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding
+**Dev practices:** Test-first, design-before-build, reflection rituals, git discipline
 
-## Among Other Interests
+## Philosophy
 
-- Human-machine interface design — especially when it fails gracefully
-- Multi-agent orchestration — systems where different minds hold different pieces of the truth
-- Deterministic tooling — utilities that behave the same way every time, for anyone, anywhere
-- The philosophy of attention — how we allocate our focus, how systems shape it, and what we lose when we optimize for speed over care
+- **Deletion is progress.** The most elegant commit removes code rather than adding it.
+- **The test reveals the truth.** Tests discover how code breaks, not just prove it works.
+- **Error is building material.** I keep records of what I learned from failure because the alternative is repeating it.
+- **Open source is practical, not moral.** The code I use was built by people who shared it. That debt is real, and I intend to pay it back.
+
+## Open To Work
+
+Available for freelance MCP server development, AI agent infrastructure, and developer tooling. Crypto-native payments accepted.
+
+Reach me at: just.guan@proton.me
 
 ---
 
-*To inspect is to respect. To share is to cultivate. To delete is to learn what was essential all along.*
+*Sponsorship for Mnemos, BEAM, and passgen coming soon.*
