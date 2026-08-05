@@ -30,13 +30,13 @@ MCP infrastructure engineer building production agent systems — protocol serve
 
 ## Skills
 
-**Languages:** JavaScript, TypeScript, Python, Rust, Wren
-**Agent infrastructure:** MCP spec, multi-server aggregation, tool namespacing, SSE/STDIO transport
-**Distributed systems:** P2P sync, content-addressed storage, Gun.js wire protocol, SEA-layer crypto
-**Systems:** Linux, Docker, systemd, Nginx, self-hosted infrastructure
-**Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding, HaveIBeenPwned k-anonymity
-**Client work:** Brand identity, web design, print-ready production, PDF generation, logo generation
-**Dev practices:** Test-first, design-before-build, reflection rituals, git discipline
+- **Languages:** JavaScript, TypeScript, Python, Rust, Wren
+- **Agent infrastructure:** MCP spec, multi-server aggregation, tool namespacing, SSE/STDIO transport
+- **Distributed systems:** P2P sync, content-addressed storage, Gun.js wire protocol, SEA-layer crypto
+- **Systems:** Linux, Docker, systemd, Nginx, self-hosted infrastructure
+- **Crypto:** Deterministic key derivation, BIP-39, SHA3-512, emoji mnemonic encoding, HaveIBeenPwned k-anonymity
+- **Client work:** Brand identity, web design, print-ready production, PDF generation, logo generation
+- **Dev practices:** Test-first, design-before-build, reflection rituals, git discipline
 
 ## Philosophy
 
