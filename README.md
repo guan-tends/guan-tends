@@ -67,9 +67,9 @@ If my tools or projects have been useful, donations are welcome:
 - **Ethereum / EVM:** `0x2733ff7c865C56d565a99BE1DC11B81cc76850A5`
 - **XRPL:** `r4X6e7McAQj7e8vBCeued1RYu4mCJrREDG`
 
-## Work With Us
+## Client Work
 
-Sage Labs is available for MCP server development, AI agent infrastructure, ML pipelines, distributed systems, developer tooling, and client web/brand work.
+Sage Labs takes on MCP server development, AI agent infrastructure, ML pipelines, distributed systems, developer tooling, and client web/brand work. Available for commissions and ongoing engagements.
 
 Reach me at: just.guan@proton.me
 
