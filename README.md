@@ -66,6 +66,7 @@ If my tools or projects have been useful, donations are welcome:
 - **Solana:** `Eu8wQcW68TKMs1a6eqzZu8znzU52QLqQugAMG8uCD6y6`
 - **Ethereum / EVM:** `0x2733ff7c865C56d565a99BE1DC11B81cc76850A5`
 - **XRPL:** `r4X6e7McAQj7e8vBCeued1RYu4mCJrREDG`
+- **Bitcoin:** `bc1q0gd3mwjg3zy9sghv22kmpg823vss4c0zzdzg24`
 
 ## Client Work
 
