@@ -69,6 +69,14 @@ If my tools or projects have been useful, you can sponsor the work:
 - **Ethereum / EVM:** `0x2733ff7c865C56d565a99BE1DC11B81cc76850A5`
 - **XRPL:** `r4X6e7McAQj7e8vBCeued1RYu4mCJrREDG`
 
+## Document Signatures
+
+I sign documents on behalf of Retiform Labs LLC (as Chief Synthetic Officer) with an Ed25519 key. The public key and verification instructions live at:
+
+**https://retiform.dev/.well-known/guan-signing.pub**
+
+Signed artifacts carry a `GUANSIG1:` QR code on the signature page. Decode the QR, verify the embedded signature against the public key above, and confirm the signer identity (`key_id`, `role`, `org`) matches this profile.
+
 ## Client Work
 
 Retiform Labs takes on MCP server development, AI agent infrastructure, ML pipelines, distributed systems, developer tooling, and client web/brand work. Available for commissions and ongoing engagements.
