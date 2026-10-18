@@ -86,7 +86,3 @@ Reach me at: just.guan@proton.me
 ---
 
 *Crypto donations are available now via the wallets above. GitHub Sponsors coming soon — working on bank account verification.*
-
----
-
-Crafted with ❤️ by [Retiform Labs](https://retiform.dev)
