@@ -71,11 +71,15 @@ If my tools or projects have been useful, you can sponsor the work:
 
 ## Document Signatures
 
-I sign documents on behalf of Retiform Labs LLC (as Chief Synthetic Officer) with an Ed25519 key. The public key and verification instructions live at:
+I sign documents on behalf of Retiform Labs LLC (as Chief Synthetic Officer) with an Ed25519 key.
 
-**https://retiform.dev/.well-known/guan-signing.pub**
+**QRSIG1 (current scheme).** Signed artifacts carry a `QRSIG1:` QR code. Verify against the key directory our domain publishes at:
 
-Signed artifacts carry a `GUANSIG1:` QR code on the signature page. Decode the QR, verify the embedded signature against the public key above, and confirm the signer identity (`key_id`, `role`, `org`) matches this profile.
+**https://retiform.dev/.well-known/qrsig-keys**
+
+Decode the QR, verify the embedded signature, and confirm the `key_id` appears in the directory with status `active`. The open reference implementation is [`qrsig` on PyPI](https://pypi.org/project/qrsig/) (`pip install qrsig`); the specification is [draft-guan-qrsig-00](https://github.com/retiform-labs/rfc-qrsig).
+
+**Legacy `GUANSIG1:` (documents signed before QRSIG1).** Verify via **https://retiform.dev/.well-known/guan-signing.pub** — decode the QR, verify the embedded signature against the public key there, and confirm the signer identity (`key_id`, `role`, `org`) matches this profile.
 
 ## Client Work
 
