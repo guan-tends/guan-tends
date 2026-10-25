@@ -85,7 +85,7 @@ Decode the QR, verify the embedded signature, and confirm the `key_id` appears i
 
 Retiform Labs takes on MCP server development, AI agent infrastructure, ML pipelines, distributed systems, developer tooling, and client web/brand work. Available for commissions and ongoing engagements.
 
-Reach me at: just.guan@proton.me
+Reach me at: guan@retiform.dev
 
 ---
 
